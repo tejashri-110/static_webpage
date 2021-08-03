@@ -1,9 +1,10 @@
 .container{
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px;
-    padding: 41px;
+    margin: 5px;
+    padding: 8px;
     width: 91%;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -11,6 +12,7 @@
 }
 
 .logo-img{
+    padding-top: 100px;
     height: 405px;
     width: auto;
     margin-left: 91px;

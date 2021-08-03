@@ -1,11 +1,11 @@
 .link {
-    margin-right: 20px;
+    margin-right: 15px;
 }
 .link:hover {
     color: #420f0a !important;
 }
 .main {
     background-color: white; 
-    padding-top: 1rem;
+    /* padding-top:  20rem; */
     box-shadow: 0 0px 12px 0px gray;
 }

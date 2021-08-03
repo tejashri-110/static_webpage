@@ -1,0 +1,29 @@
+.carousel{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    padding: 8px;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.figure{
+    padding-top: 10px;
+    display: flex;
+    justify-content: left;
+    /* align-items: center; */
+    /* margin-left: 150px; */
+    padding: 8px;
+    width: 500%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.section-title {
+  
+    color: #4285F4;
+  }
+.figure-caption{
+    justify-content: left;
+  }
