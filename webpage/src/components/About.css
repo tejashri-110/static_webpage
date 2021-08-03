@@ -1,0 +1,8 @@
+.card-img{
+    width: auto;
+    height: 100px;
+}
+
+.cards{
+    display: grid;
+}
