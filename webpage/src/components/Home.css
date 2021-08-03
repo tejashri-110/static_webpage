@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    padding: 41px;
+    width: 91%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.logo-img{
+    height: 405px;
+    width: auto;
+    margin-left: 91px;
+}
