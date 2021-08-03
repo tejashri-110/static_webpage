@@ -15,9 +15,8 @@ function App() {
           <About />
           <Facts />
           <Reviews />
-          <Home />
-          <About />
           <Team />
+         
         </Route>
       </Router>
 

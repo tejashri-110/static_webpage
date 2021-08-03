@@ -1,3 +1,26 @@
 h2{text-align: center;
     margin: 37px;
     padding: 23px;}
+
+
+    .team-img{
+        display:flex;
+        flex-wrap: wrap;
+      width:200px;
+      box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+      margin: auto;
+  }
+
+  div.card{
+      width: auto;
+      
+  }
+
+  .team-img{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+      margin: auto;
+  }
