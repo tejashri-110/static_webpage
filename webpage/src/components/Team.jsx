@@ -11,8 +11,11 @@ const Team = () => {
 
            <div className="container">
                <h2>Team</h2>
-               <CardGroup>
+              <div>
+               <CardGroup className="cards">
+                   
   <Card>
+      
   <Image className="team-img" src={team} roundedCircle />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
@@ -23,7 +26,11 @@ const Team = () => {
     </Card.Body>
     
   </Card>
+  
+
+  
   <Card>
+  
   <Image className="team-img" src={team} roundedCircle />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
@@ -33,8 +40,11 @@ const Team = () => {
         show that equal height action.
       </Card.Text>
     </Card.Body>
+    
   </Card>
+  
 </CardGroup>
+</div>
 
           </div>
 

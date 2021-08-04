@@ -8,19 +8,20 @@ h2{text-align: center;
         flex-wrap: wrap;
       width:200px;
       box-sizing: border-box;
-     margin: 0;
+     
      padding: 0;
       margin: auto;
   }
 
   div.card{
+      background: rgb(255, 255, 255);
       width: auto;
+      border: 1px solid rgba(0,0,0,.125);
       
   }
 
-  .team-img{
-     box-sizing: border-box;
-     margin: 0;
-     padding: 0;
-      margin: auto;
+  .cards{
+width:80%;
+margin:auto;
+
   }
