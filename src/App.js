@@ -15,7 +15,7 @@ function App() {
           <Facts />
           <Reviews />
           <Team />
-
+          <Footer />
         </Route>
       </Router>
 
