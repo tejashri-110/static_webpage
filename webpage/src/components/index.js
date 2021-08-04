@@ -5,5 +5,3 @@ export { default as Facts } from './Facts'
 export { default as Reviews } from './Reviews'
 export { default as Team } from './Team'
 export { default as Footer } from './Footer'
-
-

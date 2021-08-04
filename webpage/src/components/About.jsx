@@ -10,7 +10,7 @@ const About = () => {
         
         <CardGroup>
   <Card>
-    <Card.Img class="card-img" variant="top" src={holder1}  />
+    <Card.Img className="card-img" variant="top" src={holder1}  />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -21,7 +21,7 @@ const About = () => {
     
   </Card>
   <Card>
-    <Card.Img class="card-img" variant="top" src={holder2} />
+    <Card.Img className="card-img" variant="top" src={holder2} />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -32,7 +32,7 @@ const About = () => {
     
   </Card>
   <Card>
-    <Card.Img class="card-img" variant="top" src={holder3} />
+    <Card.Img className="card-img" variant="top" src={holder3} />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
