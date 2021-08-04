@@ -5,7 +5,10 @@
     color: #420f0a !important;
 }
 .main {
-    background-color: white; 
+    background-color: rgb(187, 21, 21); 
     /* padding-top:  20rem; */
     box-shadow: 0 0px 12px 0px gray;
+}
+.navbar{
+    /* background-color: blueviolet; */
 }

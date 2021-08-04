@@ -1,7 +1,5 @@
 
-.card-header{
-    background-color: #f0decf;
-}
+
 
 b{
     color: black;
@@ -10,4 +8,16 @@ b{
 .card-text{
     font-size: medium;
     color: #7e7e7e;
+}
+.card-review{
+    width:1200px;
+    justify-content: center;
+    border-color: black;
+    padding-left: 180px;
+}
+.card-header {
+    background-color: #f0decf;
+    justify-content: center;
+    flex: auto;
+    align-items: center;
 }

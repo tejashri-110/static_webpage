@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap';
 const Reviews = () => {
     return (
         <Container>
-            <div class="card">
+            <div className="card-review">
                 <div class="card-header">
                     Quote
                 </div>

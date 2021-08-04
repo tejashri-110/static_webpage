@@ -2,7 +2,7 @@ import React from 'react';
 import bg1 from "../media/bg1.jpg";
 import bg2 from "../media/bg2.jpg";
 import bg3 from "../media/bg3.jpg";
-import { Carousel, Container, Figure } from 'react-bootstrap';
+import { Carousel, Container } from 'react-bootstrap';
 import './Facts.css';
 
 const Facts = () => {
@@ -45,49 +45,57 @@ const Facts = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-
             <Container>
-                <Container><h2 class="section-title">Fun &amp; Facts</h2>
-                </Container>
-                <Figure classname='figure'>
-                    <Figure.Image
-                        width={171}
-                        height={180}
-                        alt="171x180"
-                        src={bg1}
-                    />
-                    <Figure.Caption>
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
-                    </Figure.Caption>
-                </Figure>
+                <h2 className='facts'>FUn FaCts</h2>
             </Container>
             <Container>
-                <Figure classname='figure'>
-                    <Figure.Image
-                        width={171}
-                        height={180}
-                        alt="171x180"
-                        src={bg1}
-                    />
-                    <Figure.Caption>
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
-                    </Figure.Caption>
-                </Figure>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </Container>
             <Container>
-                <Figure classname='figure'>
-                    <Figure.Image
-                        width={171}
-                        height={180}
-                        alt="171x180"
-                        src={bg1}
-                    />
-                    <Figure.Caption class="figure-caption">
-                        Nulla vitae elit libero, a pharetra augue mollis interdum.
-                    </Figure.Caption>
-                </Figure>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="..."></img>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </Container>
-        </Container>
+            <Container>
+                <div class="card mb-3"><span className="myClass"> </span>
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="..." class="img-fluid rounded-start" alt="logo"></img>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Container>
+        </Container >
     )
 
 }

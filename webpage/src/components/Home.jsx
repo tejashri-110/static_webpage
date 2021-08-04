@@ -4,14 +4,14 @@ import './Home.css';
 
 const Home = () => {
     return (
-
-        <div class="container">
-            <h1> Hi All..Welcome!!
-            </h1>
-            <img class="logo-img" src={img1} alt="logo"></img>
+        <div class="home">
+            <div class="container">
+                <h1> FIT Foodie Finds
+                </h1>
+                <img class="logo-img" src={img1} alt="logo"></img>
+            </div>
         </div>
     )
-
 }
 
 export default Home
