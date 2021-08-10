@@ -2,7 +2,7 @@ import React from 'react'
 import './Team.css';
 import Image from 'react-bootstrap/Image'
 import team from "../media/team.png";
-import { Card, CardGroup, Container, Col, Row } from 'react-bootstrap';
+import { Card, CardGroup, Col, Row } from 'react-bootstrap';
 
 
 
