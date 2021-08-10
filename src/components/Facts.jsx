@@ -7,7 +7,7 @@ import './Facts.css';
 
 const Facts = () => {
     return (
-        <Container classname="carousel">
+        <Container classname="carousel" id="facts">
             <Carousel>
                 <Carousel.Item>
                     <img

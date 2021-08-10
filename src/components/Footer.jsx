@@ -12,37 +12,37 @@ function Footer() {
         <Container fluid className="footer">
             <Row>
                 <Col md="4" className="footer-copywright">
-                    <h3>Designed and Developed by TEJASHRI MITBAVKAR</h3>
+                    <h3>Designed and Developed by Fitness Group</h3>
                 </Col>
-                <Col md="4" className="footer-copywright">
-                </Col>
+                {/* <Col md="4" className="footer-copywright">
+                </Col> */}
                 <Col md="4" className="footer-body">
                     <ul className="footer-icons">
-                        <li className="social-icons">
-                            <a
-                                href="https://github.com/tejashri-110"
-                                style={{ color: "white" }}
-                            >
-                                <AiFillGithub />
-                            </a>
-                        </li>
 
-                        <li className="social-icons">
-                            <a
-                                href="https://www.linkedin.com/in/tejashri-mitbavkar-bb3871192/"
-                                style={{ color: "white" }}
-                            >
-                                <FaLinkedinIn />
-                            </a>
-                        </li>
-                        <li className="social-icons">
-                            <a
-                                href="https://www.instagram.com/swarangi/"//broken
-                                style={{ color: "white" }}
-                            >
-                                <AiFillInstagram />
-                            </a>
-                        </li>
+                        <a
+                            href="https://github.com/tejashri-110"
+                            style={{ color: "white" }}
+                        >
+                            <AiFillGithub />
+                        </a>
+
+
+                        {/* <li className="social-icons"> */}
+                        <a
+                            href="https://www.linkedin.com/in/tejashri-mitbavkar-bb3871192/"
+                            style={{ color: "white" }}
+                        >
+                            <FaLinkedinIn />
+                        </a>
+                        {/* </li> */}
+                        {/* <li className="social-icons"> */}
+                        <a
+                            href="https://www.instagram.com/swarangi/"//broken
+                            style={{ color: "white" }}
+                        >
+                            <AiFillInstagram />
+                        </a>
+                        {/* </li> */}
                     </ul>
                 </Col>
             </Row>

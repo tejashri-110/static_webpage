@@ -1,14 +1,16 @@
 .link {
     margin-right: 15px;
+    background-image: linear-gradient(#1d93ca
+, #3dc0e7);
 }
 .link:hover {
     color: #420f0a !important;
 }
-.main {
+/* .main {
     background-color: rgb(187, 21, 21); 
-    /* padding-top:  20rem; */
     box-shadow: 0 0px 12px 0px gray;
-}
+} */
 .navbar{
-    /* background-color: blueviolet; */
+    background-image: linear-gradient(#1d93ca
+, #3dc0e7);
 }
