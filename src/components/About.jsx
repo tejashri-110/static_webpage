@@ -15,10 +15,10 @@ const About = () => {
             <Card>
               <Card.Img className="card-img" variant="top" src={holder1} />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>Cereals & Dry fruits</Card.Title>
                 <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This content is a little bit longer.
+                  Adding cereals and whole grain food can help maintain blood levels and decrease the need for eating at short intervals.
+                  A handful of dried fruits provides you with instant engery,protein,vitamins and minerals.As mixed,it gives you all the essentials required by the body.
                 </Card.Text>
               </Card.Body>
 
@@ -28,7 +28,7 @@ const About = () => {
             <Card>
               <Card.Img className="card-img" variant="top" src={holder2} />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>Fruits & Veggies</Card.Title>
                 <Card.Text>
                   This card has supporting text below as a natural lead-in to additional
                   content.{' '}
@@ -42,7 +42,7 @@ const About = () => {
             <Card>
               <Card.Img className="card-img" variant="top" src={holder3} />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>Salad</Card.Title>
                 <Card.Text>
                   This is a wider card with supporting text below as a natural lead-in to
                   additional content. This card has even longer content than the first to
