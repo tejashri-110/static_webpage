@@ -18,6 +18,7 @@ b{
 .card-header {
     background-color: #f0decf;
     justify-content: center;
+    border:#7e7e7e;
     flex: auto;
     align-items: center;
 }

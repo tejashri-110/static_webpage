@@ -10,6 +10,7 @@ const About = () => {
     <Container className="container" id="about">
 
       <CardGroup>
+
         <Row>
           <Col lg={4}>
             <Card>
@@ -30,8 +31,7 @@ const About = () => {
               <Card.Body>
                 <Card.Title>Fruits & Veggies</Card.Title>
                 <Card.Text>
-                  This card has supporting text below as a natural lead-in to additional
-                  content.{' '}
+                  Fruit and vegetables are a good source of vitamins and minerals, including folate, vitamin C and potassium. They're an excellent source of dietary fibre, which can help to maintain a healthy gut and prevent constipation and other digestion problems.You get to enjoy a variety of flavors and textures.{' '}
                 </Card.Text>
               </Card.Body>
 
@@ -44,15 +44,15 @@ const About = () => {
               <Card.Body>
                 <Card.Title>Salad</Card.Title>
                 <Card.Text>
-                  This is a wider card with supporting text below as a natural lead-in to
-                  additional content. This card has even longer content than the first to
-                  show that equal height action.
+                  Leafy vegetables are a good choice for a healthful diet because they do not contain cholesterol and are naturally low in calories and sodium.
+                  Eating salad does burn fat when you combine your salad with healthy grains for a full and complete meal.It is perfect nutritional powerhouse that supplies vitamins and minerals to body.
                 </Card.Text>
               </Card.Body>
 
             </Card>
           </Col>
         </Row>
+
       </CardGroup>
     </Container>
 
