@@ -8,7 +8,7 @@ import holder3 from "../media/holder3.jpg";
 const About = () => {
   return (
     <Container className="container" id="about">
-
+    
       <CardGroup>
         <Row>
           <Col lg={4}>
