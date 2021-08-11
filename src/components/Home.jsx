@@ -9,7 +9,7 @@ const Home = () => {
         <div class="home">
             <div class="container">
                 <section>
-                    <Container fluid className="home-section" id="home">
+                    <Container fluid className="home-section" class="home-content" id="home">
 
                         <Container className="home-content">
                             <Row>
@@ -23,7 +23,7 @@ const Home = () => {
                                         <strong className="main-name">Schedule Yourself...</strong>
                                     </h1>
 
-                                    <div style={{ padding: 50, textAlign: "left" }}>
+                                    <div style={{padding: 50, textAlign: "left"  }}>
                                         <Type />
                                     </div>
                                 </Col>
