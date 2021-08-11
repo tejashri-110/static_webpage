@@ -7,7 +7,7 @@ import holder3 from "../media/holder3.jpg";
 
 const About = () => {
   return (
-    <Container className="container" id="about">
+    <Container className="container cards" id="about">
     
       <CardGroup>
 
