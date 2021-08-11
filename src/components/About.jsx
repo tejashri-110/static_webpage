@@ -15,7 +15,7 @@ const About = () => {
           <Col lg={4}>
             <Card>
               <Card.Img className="card-img" variant="top" src={holder1} />
-              <Card.Body>
+              <Card.Body class="content">
                 <Card.Title>Cereals & Dry fruits</Card.Title>
                 <Card.Text>
                   Adding cereals and whole grain food can help maintain blood levels and decrease the need for eating at short intervals.
@@ -28,7 +28,7 @@ const About = () => {
           <Col lg={4}>
             <Card>
               <Card.Img className="card-img" variant="top" src={holder2} />
-              <Card.Body>
+              <Card.Body class="content">
                 <Card.Title>Fruits & Veggies</Card.Title>
                 <Card.Text>
                   Fruit and vegetables are a good source of vitamins and minerals, including folate, vitamin C and potassium. They're an excellent source of dietary fibre, which can help to maintain a healthy gut and prevent constipation and other digestion problems.You get to enjoy a variety of flavors and textures.{' '}
@@ -41,7 +41,7 @@ const About = () => {
 
             <Card>
               <Card.Img className="card-img" variant="top" src={holder3} />
-              <Card.Body>
+              <Card.Body class="content">
                 <Card.Title>Salad</Card.Title>
                 <Card.Text>
                   Leafy vegetables are a good choice for a healthful diet because they do not contain cholesterol and are naturally low in calories and sodium.

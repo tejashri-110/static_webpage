@@ -51,14 +51,14 @@ const Facts = () => {
             <Container>
                 <h2 className='facts'>FUn FaCts</h2>
             </Container>
-            <Container>
+            <Container class="card-content">
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
                         <img src={ff3} class="img-fluid rounded-start" alt="..."></img>
                         </div>
                         <div class="col-md-8">
-                            <div class="card-body">
+                            <div class="my-card-body">
                                 <h5 class="card-title">Dinner is better when we eat together</h5>
                                 <p class="card-text">According to several studies, parents who ate with their family while sitting around a kitchen or dining room table weigh significantly less than those who eat dinner in front of the TV.</p>
                                 
@@ -67,14 +67,14 @@ const Facts = () => {
                     </div>
                 </div>
             </Container>
-            <Container>
+            <Container class="card-content">
                 <div class="card mb-3">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src={ff2} class="img-fluid rounded-start" alt="..."></img>
                         </div>
                         <div class="col-md-8">
-                            <div class="card-body">
+                            <div class="my-card-body">
                                 <h5 class="card-title">Candy affect how much you weigh?</h5>
                                 <p class="card-text">People who have candy on or in their desk reported weighing 15.4 more pounds than those who didn’t.</p>
                                 
@@ -83,14 +83,14 @@ const Facts = () => {
                     </div>
                 </div>
             </Container>
-            <Container>
+            <Container class="card-content">
                 <div class="card mb-3"><span className="myClass"> </span>
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src={ff1} class="img-fluid rounded-start" alt="logo"></img>
                         </div>
                         <div class="col-md-8">
-                            <div class="card-body">
+                            <div class="my-card-body">
                                 <h5 class="card-title">Want to have twins? Stock up on cheese and start chugging milk.</h5>
                                 <p class="card-text">According to a study published in the Journal of Reproductive Medicine by Gary Steinman, MD, PhD, an ob-gyn at Long Island Jewish (LIJ) Medical Center in New Hyde Park, N.Y., women who consume dairy products may increase their chances of conceiving twins. </p>
                                

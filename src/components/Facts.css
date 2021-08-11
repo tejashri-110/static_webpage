@@ -61,20 +61,21 @@
 .img-fluid {
     width: 319px;
     height: 334px;
+    padding: 20px;
 }
 
-.card-body {
+.my-card-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     flex: 1 1 auto;
     padding: 1rem 1rem;
-    height: 291px;
+    height: 335px ;
 }
 
 
-.container {
+.card-content {
     /* padding-top: 10px; */
     display: flex;
     justify-content: center;
